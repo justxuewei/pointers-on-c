@@ -20,3 +20,11 @@ init:
 3.4: init
 	@gcc 3.4-const/main.c -o $(BUILD_DIR)/$(DEAFULT_OUTPUT_FILE)
 	$(call run_user_application,$(DEAFULT_OUTPUT_FILE))
+
+6.2: init
+	@gcc 6.2-find-char/main.c -o $(BUILD_DIR)/$(DEAFULT_OUTPUT_FILE)
+	$(call run_user_application,$(DEAFULT_OUTPUT_FILE))
+
+6.3: init
+	@gcc 6.3-find-char/main.c -o $(BUILD_DIR)/$(DEAFULT_OUTPUT_FILE)
+	$(call run_user_application,$(DEAFULT_OUTPUT_FILE))
